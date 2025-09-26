@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Today",
+        "isTitle": true
+    },
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
+    
+    {
+        "name": "Dashboard",
+        "icon": "bi bi-columns-gap",
+        "url": "index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../NewOrders/HtmlFiles/NewOrdersMenu.html"
+    },
+    {
+        "name": "QrRaise",
+        "key": "Qr",
+        "icon": "bi bi-qr-code",
+        "children": [
+            {
+                "name": "All",
+                "url": "QrRaiseAll.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Pending",
+                "url": "QrPending.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Raised",
+                "url": "QrRaised.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Prints",
+        "key": "PrintQr",
+        "icon": "bi bi-printer",
+        "children": [
+            {
+                "name": "QR And Bill",
+                "url": "PrintQr.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Bill",
+        "key": "Bill",
+        "icon": "bi bi-printer-fill",
+        "children": [
+            {
+                "name": "Print",
+                "url": "BillPrint.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Items",
+        "key": "Items",
+        "icon": "bi bi-diagram-2",
+        "children": [
+            {
+                "name": "Items",
+                "url": "Items.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "ItemsFilter",
+                "url": "ItemsFilter.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "Orders",
+        "key": "DeleteOrder",
+        "icon": "bi bi-box",
+        "children": [
+            {
+                "name": "DeleteOrder",
+                "url": "DeleteOrder.html",
+                "icon": "bi bi-box-seam"
+            }
+        ]
+    },
+    {
+        "name": "Reports",
+        "isHeading": true
+    },
+    {
+        "name": "Payments",
+        "key": "Reports",
+        "url": "../../TodayReports/HtmlFiles/",
+        "icon": "bi bi-currency-exchange"
+    },
+    {
+        "name": "Orders",
+        "key": "Today",
+        "icon": "bi bi-border-style",
+        "url": "../../Today-Orders/HtmlFiles/"
+    },
+    {
+        "name": "QrCodes",
+        "key": "Today",
+        "url": "../../Today-QrCodes/HtmlFiles/",
+        "icon": "bi bi-upc-scan"
+    },
+    {
+        "name": "ToFactory",
+        "key": "Today",
+        "url": "../../Factory/ToFactory/HtmlFiles/",
+        "icon": "bi bi-buildings-fill"
+    }
+]

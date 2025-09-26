@@ -1,0 +1,15 @@
+{
+    "routePath": "binV4",
+    "folderName": "Transactions",
+    "tableName": "Kakinada",
+    "localStorageKeys": {
+        "OrderKey": "PresentOrder",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns"
+    },
+    "ApiUrls": {
+        "ItemsTable": {
+            "DeleteUrl": "$tableName/SubTable/Delete/SubKey/:Id/:inKey/:SubId"
+        }
+    }
+}

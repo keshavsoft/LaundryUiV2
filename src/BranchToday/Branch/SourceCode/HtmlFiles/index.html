@@ -1,0 +1,124 @@
+{% extends 'src/BranchToday/Branch/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<section class="section dashboard">
+    <div class="row">
+        <div class="col">
+            <h4>Today's Orders</h4>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Left side columns -->
+        <div class="col-12 col-lg-12">
+            <div class="row">
+                <!-- Sales Card -->
+                <div class="col-6 col-lg-4 col-md-6">
+                    <div class="card info-card sales-card clickable-card"  onclick="window.location.href='./QrRaised.html';" style="cursor: pointer;">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Filter</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="../HtmlFiles/QrRaiseAll.html">All</a></li>
+                                <li><a class="dropdown-item" href="../HtmlFiles/QrPending.html">Pending</a></li>
+                                <li><a class="dropdown-item" href="../HtmlFiles/QrRaised.html">Raised</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <!-- <a href="./QrRaised.html"> -->
+                            <h5 class="card-title" >QrRaise</h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-qr-code"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>QrCodes</h6>
+                                    <span class="text-success small pt-1 fw-bold">12%</span> <span
+                                        class="text-muted small pt-2 ps-1">increase</span>
+
+                                </div>
+                            </div>
+                        <!-- </a> -->
+                        </div>
+
+                    </div>
+                </div><!-- End Sales Card -->
+                <!-- Revenue Card -->
+                <div class="col-6 col-lg-4 col-md-6">
+                    <div class="card info-card revenue-card clickable-card"  onclick="window.location.href='./PrintQr.html';" style="cursor: pointer;">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Filter</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="../HtmlFiles/PrintQr.html">Print</a></li>
+                                <li><a class="dropdown-item" href="../HtmlFiles/PrintQrAndBill.html">QR&Bill</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <!-- <a href="./PrintQr.html"> -->
+                            <h5 class="card-title">QRPrint</h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-printer"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>QRPrint</h6>
+                                    <span class="text-success small pt-1 fw-bold">8%</span> <span
+                                        class="text-muted small pt-2 ps-1">increase</span>
+
+                                </div>
+                            </div>
+                        <!-- </a>     -->
+                    </div>
+                    </div>
+                </div><!-- End Revenue Card -->
+
+                <!-- Customers Card -->
+                <div class="col-6 col-lg-4 col-md-6">
+                    <div class="card info-card customers-card clickable-card"  onclick="window.location.href='./BillPrint.html';" style="cursor: pointer;">
+                        <div class="card-body">
+                            <!-- <a href="./BillPrint.html"> -->
+                            <h5 class="card-title">Bill</h5>
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-printer-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Bill</h6>
+                                    <span class="text-danger small pt-1 fw-bold">12%</span> <span
+                                        class="text-muted small pt-2 ps-1">decrease</span>
+                                </div>
+                            </div>
+                        <!-- </a> -->
+                        </div>
+                    </div>
+
+                </div><!-- End Customers Card -->
+            </div>
+        </div><!-- End Left side columns -->
+        <div class="row">
+            <div class="col-12">
+              <div id="chart-profile-visit">
+                <img src="../assets/static/NiceAdmin/img/sample2.png" alt="Truck"
+                  style="object-fit:fill; height:0%; width: 45%; margin-left: 10.5rem" />
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block js %}
+<!-- <script type="module" src="../Js/pages/Index/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/Index/StartFunc.js"></script>
+{% endblock %}

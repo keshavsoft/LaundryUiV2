@@ -1,0 +1,30 @@
+{
+    "routePath": "binV4",
+    "folderName": "Masters",
+    "tableName": "CustomerNames",
+    "TodayUrl": "Custom/Cleaning/Branch/Order/NewOrderV1/TodayCustomerFilter",
+    "localStorageKeys": {
+        "OrderKey": "CustomerNames",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns"
+    },
+    "Urls": {
+        "NewOrderButtonId": {
+            "PostFetch1": "/Custom/Cleaning/Branch/Order/NewOrderV1/InSertOrder",
+            "PostFetch2": "/Custom/Cleaning/Branch/Order/NewOrderV1",
+            "PostFetch_good_8Sep2025": "/Custom/Cleaning/Branch/Order/NewOrderV2",
+            "PostFetch": "/BranOrdersKKD/AddWithDefault/InsertFromBody",
+            "RedirectUrl": {
+                "500Status": "/Laundry/Branch/NewOrders/HtmlFiles/AddItemsWBtns.html",
+                "200Status": "AddItemsWBtns.html"
+            }
+        },
+        "AddItemsButtonId": {
+            "PostFetch": "/Custom/Cleaning/Branch/Order/NewOrder",
+            "RedirectUrl": {
+                "500Status": "/Laundry/Branch/NewOrders/HtmlFiles/AddItemsWBtns.html",
+                "200Status": "AddItemsTotalRight.html"
+            }
+        }
+    }
+}

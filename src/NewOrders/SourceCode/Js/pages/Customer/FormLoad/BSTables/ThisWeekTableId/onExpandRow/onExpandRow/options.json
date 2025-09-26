@@ -1,0 +1,22 @@
+{
+    "toolbar": "#toolbar",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "onClickRow": "",
+    "icons": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#"
+        },
+        {
+            "field": "AddOnService",
+            "title": "AddOnService"
+        },
+        {
+            "field": "AddOnRate",
+            "title": "AddOnRate"
+        }
+    ]
+}

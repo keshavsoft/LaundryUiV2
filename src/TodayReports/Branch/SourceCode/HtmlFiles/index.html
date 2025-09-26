@@ -1,0 +1,198 @@
+{% extends 'src/TodayReports/Branch/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<section class="section dashboard">
+    <div class="row">
+        <div class="col">
+            <!-- <h1>All Tables-WithSSR-SubTable-HtmlSide validations
+            </h1> -->
+            <h3>Payments</h3>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Left side columns -->
+        <div class="col-12">
+            <div class="row d-flex flex-wrap">
+
+                <!-- ShowAll Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card sales-card clickable-card"
+                    onclick="window.location.href='./PaymentsShowAll.html';" style="cursor: pointer;">
+                        <div class="filter">
+
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>ShowAll</h6>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <!-- <a href="./PaymentsGst.html"> -->
+                                <h5 class="card-title">ShowAll</h5>
+                            <!-- </a> -->
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <!-- <i class="bi bi-cart-check"></i> -->
+                                    <i class="bi bi-border-all"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <!-- <a href="./PaymentsGst.html"> -->
+                                        <h6>Show</h6>
+                                    <!-- </a> -->
+
+                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of ShowAll Card -->
+
+                <!-- Gst Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card sales-card clickable-card"
+                    onclick="window.location.href='./PaymentsGst.html';" style="cursor: pointer;">
+                        <div class="filter">
+
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Gst</h6>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <!-- <a href="./PaymentsGst.html"> -->
+                                <h5 class="card-title">Gst</h5>
+                            <!-- </a> -->
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <!-- <i class="bi bi-cart-check"></i> -->
+                                    <i class="bi-currency-rupee"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <!-- <a href="./PaymentsGst.html"> -->
+                                        <h6>Gst</h6>
+                                    <!-- </a> -->
+
+                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Gst Card -->
+
+
+                <!-- Cash Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card sales-card clickable-card"
+                    onclick="window.location.href='./PaymentsCash.html';" style="cursor: pointer;">
+                        <div class="filter">
+
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Cash</h6>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <!-- <a href="./PaymentsCash.html"> -->
+                                <h5 class="card-title">Cash</h5>
+                            <!-- </a> -->
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <!-- <i class="bi bi-upc-scan"></i> -->
+                                    <i class="bi bi-cash-coin"></i>
+
+                                </div>
+                                <div class="ps-3">
+                                    <!-- <a href="./PaymentsCash.html"> -->
+                                        <h6>Cash</h6>
+                                    <!-- </a> -->
+
+                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Cash Card -->
+
+                <!-- ShowAll Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card sales-card clickable-card"
+                    onclick="window.location.href='./PaymentsCard.html';" style="cursor: pointer;">
+                        <div class="filter">
+
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Card</h6>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <!-- <a href="./PaymentsCard.html"> -->
+                                <h5 class="card-title">Card</h5>
+                            <!-- </a> -->
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <!-- <i class="bi bi-cart-check"></i> -->
+                                    <i class="bi bi-person-vcard-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <!-- <a href="./PaymentsCard.html"> -->
+                                        <h6>Card</h6>
+                                    <!-- </a> -->
+
+                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of ShowAll Card -->
+
+                <!-- UPI Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card customers-card clickable-card"
+                    onclick="window.location.href='./PaymentsUPI.html';" style="cursor: pointer;">
+                        <div class="card-body">
+                            <!-- <a href="./PaymentsUPI.html"> -->
+                                <h5 class="card-title">UPI</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <!-- <i class="bi bi-people"></i> -->
+                                        <i class="bi bi-currency-dollar"></i>
+
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6>UPI</h6>
+                                        <span class="text-danger small pt-1 fw-bold">12%</span>
+                                        <span class="text-muted small pt-2 ps-1">decrease</span>
+                                    </div>
+                                </div>
+                            <!-- </a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End UPI Card -->
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block js %}
+<!-- <script type="module" src="../Js/pages/Index/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/Index/StartFunc.js"></script>
+{% endblock %}

@@ -1,0 +1,10 @@
+{
+    "routePath": "binV4",
+    "GetUrl": "Custom/Cleaning/Branch/Order/NewOrder/RowSettlement",
+    "PostUrl": "Custom/Cleaning/Branch/Order/NewOrderV1/Settlement",
+    "localStorageKeys": {
+        "OrderKey": "PresentOrder",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns"
+    }
+}

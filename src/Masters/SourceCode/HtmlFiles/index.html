@@ -1,0 +1,123 @@
+{% extends 'src/Masters/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<section class="section dashboard">
+    <div class="row">
+        <div class="col">
+            <h4>Branch Masters</h4>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+            <div class="row">
+                <!-- Sales Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card sales-card clickable-card" onclick="window.location.href='./CustomersShowAll.html';">
+                
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Customers</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="./CustomersCreate.html">Create</a></li>
+                                <li><a class="dropdown-item" href="./CustomersCreateNew.html">CreateNew</a></li>
+                                <li><a class="dropdown-item" href="./CustomersShowAll.html">Show</a></li>
+                                <li><a class="dropdown-item" href="./CustomersBranchWise.html">BranchWise</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="card-body">
+                            <h5 class="card-title">Customers</h5>
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6 id="CustomersID"></h6>
+                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                    <span class="text-muted small pt-2 ps-1">increase</span>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+                <!-- End Sales Card -->
+                <!-- Revenue Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card info-card revenue-card clickable-card" onclick="window.location.href='./AddOnsShowAll.html';" >
+                        <div class="card-body">
+                            <h5 class="card-title">AddOns</h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-x-diamond-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6 id="AddonsId"></h6>
+                                    <span class="text-success small pt-1 fw-bold">8%</span> <span
+                                        class="text-muted small pt-2 ps-1">increase</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Revenue Card -->
+
+                <!-- Customers Card -->
+                <div class="col-12 col-lg-4 col-md-6">
+
+                    <div class="card info-card customers-card clickable-card" onclick="window.location.href='./ItemsShowAll.html';">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Actions</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Create</a></li>
+                                <li><a class="dropdown-item" href="#">Show</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Items</h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi bi-briefcase-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6 id="ItemsId"></h6>
+                                    <span class="text-danger small pt-1 fw-bold">12%</span> <span
+                                        class="text-muted small pt-2 ps-1">decrease</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!-- End Customers Card -->
+            </div>
+        </div><!-- End Left side columns -->
+        <div class="row">
+            <div class="col-12">
+              <div id="chart-profile-visit">
+                <img src="../assets/static/NiceAdmin/img/sample1 (1).png" alt="Truck"
+                  style="object-fit:fill; height:0%; width: 45%; margin-left: 15rem" />
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block js %}
+<!-- <script type="module" src="../Js/pages/Index/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/Index/StartFunc.js"></script>
+{% endblock %}

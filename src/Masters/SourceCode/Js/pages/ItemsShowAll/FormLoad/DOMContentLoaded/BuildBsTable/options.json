@@ -1,0 +1,41 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "pagination": "true",
+    "pageList": "[5, 25, 50, 100, All,]",
+    "pageSize": "5",
+   
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "Category",
+            "title": "Category"
+        },
+        {
+            "field": "ItemName",
+            "title": "ItemName"
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs",
+            "align":"right"
+        },
+        {
+            "field": "Service",
+            "title": "ServiceType"
+        },
+        {
+            "field": "DryWashRate",
+            "title": "Rate",
+            "align":"right"
+        }
+    ]
+}

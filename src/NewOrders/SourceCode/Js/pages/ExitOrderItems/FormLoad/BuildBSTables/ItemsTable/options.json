@@ -1,0 +1,78 @@
+{
+    "data": [],
+    "showFooter": "true",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "width": 5,
+            "widthUnit": "%"
+        },
+        {
+            "field": "Category",
+            "title": "Category",
+            "width": 10,
+            "widthUnit": "%",
+            "visible": false
+        },
+        {
+            "field": "ItemName",
+            "title": "Item Name",
+            "width": 10,
+            "widthUnit": "%"
+        },
+        {
+            "field": "ItemService",
+            "title": "Service",
+            "width": 10,
+            "widthUnit": "%"
+        },
+        {
+            "field": "KS-AddOns",
+            "title": "Add Ons",
+            "width": 100
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "align": "right",
+            "footerFormatter": "",
+            "width": 10,
+            "widthUnit": "%"
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs",
+            "align": "right",
+            "width": 8,
+            "widthUnit": "%"
+        },
+        {
+            "field": "KS-Amount",
+            "title": "Amount",
+            "align": "right",
+            "footerFormatter": "",
+            "width": 15,
+            "widthUnit": "%"
+        },
+        {
+            "field": "location",
+            "title": "Factory",
+            "width": 200
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "Delivery",
+            "width": 10,
+            "widthUnit": "%"
+        },
+        {
+            "field": "KS-Opts",
+            "title": "",
+            "width": 100,
+            "visible":false
+        }
+    ],
+    "onPostBody": "",
+    "onClickRow": ""
+}

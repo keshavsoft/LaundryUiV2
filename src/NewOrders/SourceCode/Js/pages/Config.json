@@ -1,0 +1,17 @@
+{
+    "urls": {
+        "SaveButtonId": {
+            "redirectToUrl": "../../../Branch/BranchToday/HtmlFiles/QrRaiseAll.html"
+        }
+    },
+    "routePath": "V3",
+    "folderName": "Masters",
+    "tableName": "CustomerNames",
+    "localStorageKeys": {
+        "CustomerOrderKey": "CustomerOrders",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns",
+        "OrderKey": "PresentOrder",
+        "PresentOrderAddOnsKey": "PresentOrderAddOns"
+    }
+}

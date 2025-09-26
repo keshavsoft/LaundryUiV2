@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Today-Payments"
+    },
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
+    {
+        "name": "Dashboard",
+        "icon": "bi bi-columns-gap",
+        "url": "index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../BranchToday/HtmlFiles/QrRaiseAll.html"
+    },
+    {
+        "name": "Payments"
+    },
+    {
+        "name": "ShowAll",
+        "url": "PaymentsShowAll.html",
+        "icon": "bi bi-border-all"
+    },
+    {
+        "name": "Gst Payments",
+        "url": "PaymentsGst.html",
+        "icon": "bi-currency-rupee"
+    },
+    {
+        "name": "Cash",
+        "url": "PaymentsCash.html",
+        "icon": "bi bi-cash-coin"
+    },
+    {
+        "name": "Card",
+        "url": "PaymentsCard.html",
+        "icon": "bi bi-person-vcard-fill"
+    },
+    {
+        "name": "UPI",
+        "url": "PaymentsUPI.html",
+        "icon": "bi bi-currency-dollar"
+    }
+]

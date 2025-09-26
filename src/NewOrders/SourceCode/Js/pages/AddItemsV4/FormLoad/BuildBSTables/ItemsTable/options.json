@@ -1,0 +1,66 @@
+{
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "width": 50
+        },
+        {
+            "field": "Category",
+            "title": "Category",
+            "width": 200
+        },
+        {
+            "field": "ItemName",
+            "title": "Item Name",
+            "width": 350
+        },
+        {
+            "field": "ItemService",
+            "title": "Service",
+            "width": 200
+        },
+        {
+            "field": "KS-AddOns",
+            "title": "Add Ons",
+            "width": 100
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "align": "right",
+            "width": 100
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs",
+            "align": "right",
+            "width": 220
+        },
+        {
+            "field": "KS-Amount",
+            "title": "Amount",
+            "align": "right",
+            "formatter": "",
+            "width": 200
+        },
+        {
+            "field": "location",
+            "title": "Factory",
+            "width": 200
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "Delivery",
+            "width": 100
+        },
+        {
+            "field": "KS-Opts",
+            "title": "Opts.",
+            "width": 100
+        }
+    ],
+    "onPostBody": "",
+    "onClickRow": ""
+}

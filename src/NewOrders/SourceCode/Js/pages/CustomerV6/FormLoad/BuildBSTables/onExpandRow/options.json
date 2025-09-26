@@ -1,0 +1,28 @@
+{
+    "toolbar": "#toolbar",
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "detailView": true,
+    "onClickRow": "",
+    "onExpandRow": "",
+    "icons": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#"
+        },
+        {
+            "field": "ItemName",
+            "title": "ItemName"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate"
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs"
+        }
+    ]
+}

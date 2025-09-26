@@ -1,0 +1,4 @@
+{
+    "StartRoute": "Login",
+    "GetEndPoint": "/Login/bin/Users"
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "ShowAll",
+        "url": "ShowAll.html",
+        "icon": "bi bi-envelope-open-fill"
+    },
+    {
+        "name": "ShowAllProtected",
+        "url": "ShowAllProtected.html",
+        "icon": "bi bi-envelope-open-fill"
+    },
+    {
+        "name": "Laundry",
+        "key": "Laundry",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "LaundryShow",
+                "url": "LaundryShow.html",
+                "icon": "bi bi-envelope-open-fill"
+            },
+            {
+                "name": "LaundryDelete",
+                "url": "LaundryDelete.html",
+                "icon": "bi bi-envelope-open-fill"
+            },
+            {
+                "name": "LaundryAlter",
+                "url": "LaundryAlter.html",
+                "icon": "bi bi-envelope-open-fill"
+            },
+            {
+                "name": "LaundryUserRegister",
+                "url": "LaundryUserRegister.html",
+                "icon": "bi bi-envelope-open-fill"
+            }
+        ]
+    }
+]

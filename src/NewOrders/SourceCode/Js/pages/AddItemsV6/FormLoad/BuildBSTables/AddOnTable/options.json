@@ -1,0 +1,21 @@
+{
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "width": 75
+        },
+        {
+            "field": "AddOnService",
+            "title": "Service",
+            "width": 400
+        },
+        {
+            "field": "AddOnRate",
+            "title": "Rate",
+            "width": 200
+        }
+    ],
+    "onClickRow": ""
+}

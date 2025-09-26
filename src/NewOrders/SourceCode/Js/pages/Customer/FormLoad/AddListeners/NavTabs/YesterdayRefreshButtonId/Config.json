@@ -1,0 +1,5 @@
+{
+    "routePath": "binV4",
+    "tableName":"MastersCustomers",
+    "url":"Custom/Cleaning/Branch/Order/NewOrderV1/YesterdayCustomerFilter"
+}

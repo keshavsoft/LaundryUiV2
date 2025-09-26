@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../NewOrders/HtmlFiles/Customer.html"
+    },
+    {
+        "name": "Dashboard",
+        "icon": "bi bi-columns-gap",
+        "url": "index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../NewOrders/HtmlFiles/NewOrdersMenu.html"
+    },
+    {
+        "name": "Customers",
+        "key": "Customers",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "CustomersCreate.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Show",
+                "url": "CustomersShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "BranchWise",
+                "url": "CustomersBranchWise.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "AddOns",
+        "key": "AddOns",
+        "icon": "bi bi-x-diamond-fill",
+        "children": [
+            {
+                "name": "Show",
+                "url": "AddOnsShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "Items",
+        "key": "Items",
+        "icon": "bi bi bi-briefcase-fill",
+        "children": [
+            {
+                "name": "Show",
+                "url": "ItemsShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "CategoryFilter",
+                "url": "ItemsCategoryFilter.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "WashTypeFilter",
+                "url": "ItemsWashTypeFilter.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    }
+]

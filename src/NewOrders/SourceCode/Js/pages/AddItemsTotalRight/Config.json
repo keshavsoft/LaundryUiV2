@@ -1,0 +1,21 @@
+{
+    "routePath": "binV4",
+    "folderName": "Transactions",
+    "tableName": "Kakinada",
+    "localStorageKeys": {
+        "OrderKey": "PresentOrder",
+        "ItemNamesKey": "ItemNames",
+        "AddOnsKey": "AddOns",
+        "PresentOrderAddOnsKey": "PresentOrderAddOns"
+    },
+    "ApiUrls": {
+        "ItemsTable": {
+            "DeleteUrl_Common": "$tableName/SubTable/Delete/SubKey/:Id/:inKey/:SubId",
+            "DeleteAddOnUrl": "/Custom/Cleaning/Branch/Order/NewOrder/addOn/$tableName/:Id/:SubId/:AddOnKey",
+            "DeleteItemUrl": "/Custom/Cleaning/Branch/Order/NewOrder/Item/$tableName/:Id/:SubId"
+        }
+    },
+    "ModalIds": {
+        "AddOnModal": "AddOnModal"
+    }
+}
