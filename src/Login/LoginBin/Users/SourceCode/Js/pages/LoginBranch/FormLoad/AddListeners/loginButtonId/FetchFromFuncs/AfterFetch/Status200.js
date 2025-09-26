@@ -2,17 +2,15 @@ import ConfigJson from '../../../../../Config.json' with { type: 'json' };
 const CommonKeyName = "BranchName";
 
 const StartFunc = () => {
+    debugger
     const token = getCookie('KSToken');
+
     if (token) {
-        const payload = getPayload(token);
-        if (payload) {
-            console.log(payload);
-            localStorage.setItem(CommonKeyName, `BranOrders${payload.Branch}`);
-            localStorage.setItem("UserName", payload.UserName);
-            localStorage.setItem("UserUuId", payload.UserUuId);
-            window.location.href = ConfigJson.RedirectToUrl;
-        }
-    }
+        // localStorage.setItem(CommonKeyName, `BranOrders${payload.Branch}`);
+        // localStorage.setItem("UserName", payload.UserName);
+        // localStorage.setItem("UserUuId", payload.UserUuId);
+        window.location.href = ConfigJson.RedirectToUrl;
+    };
 };
 
 const getCookie = (name) => {

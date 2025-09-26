@@ -1,3 +1,4 @@
 {
-    "PostUrl": "/Login/bin/Branch/UsingJwt/CreateToken"
+    "PostUrl_Old_26Sep2025": "/Login/bin/Branch/UsingJwt/CreateToken",
+    "PostUrl": "/Users/Generate"
 }
