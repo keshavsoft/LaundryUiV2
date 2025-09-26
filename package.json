@@ -1,6 +1,6 @@
 {
   "name": "LaundryUiV2",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "only laundry front end in branch only",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,7 @@
     "BranchToday": "vite build --config src/BranchToday/Branch/vite.config.js",
     "TodayReports": "vite build --config src/TodayReports/Branch/vite.config.js",
     "Masters": "vite build --config src/Masters/vite.config.js",
-    "Login": "vite build --config src/Login/LoginBin/Users/vite.config.js"
+    "LoginUsers": "vite build --config src/Login/LoginBin/Users/vite.config.js"
   },
   "author": "",
   "license": "ISC",

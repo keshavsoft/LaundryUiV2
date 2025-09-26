@@ -24,3 +24,7 @@ login users perfect
 0.1.8
 
 login redirect branch perfect
+
+0.1.9
+
+LoginUsers command changed
