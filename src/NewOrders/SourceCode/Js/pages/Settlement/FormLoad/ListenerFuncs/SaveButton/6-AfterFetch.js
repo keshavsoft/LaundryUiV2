@@ -1,7 +1,8 @@
 import ConfigJson from '../../../../Config.json' with {type: 'json'};
 
-let StartFunc = ({ inFromFetch }) => {
-  if (inFromFetch) {
+let StartFunc = async ({ inFromFetch }) => {
+
+  if (await inFromFetch.status === 200) {
     Swal.fire({
       title: "Settlement Success",
       confirmButtonText: "Ok",

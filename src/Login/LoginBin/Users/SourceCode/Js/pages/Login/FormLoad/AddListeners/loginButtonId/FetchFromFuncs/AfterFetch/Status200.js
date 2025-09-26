@@ -1,14 +1,15 @@
+import CommonConfigJson from '../../../../../../Config.json' with {type: 'json'};
 import ConfigJson from '../../../../../Config.json' with {type: 'json'};
 
 let StartFunc = () => {
     let jVarLocalInKey = getUrlQueryParams({ inGetKey: "InKey" });
-
+    let jVarLocalCommonConfigJson = CommonConfigJson.routePath;
     let LocalUserName = jFLocalyourUsername();
 
     switch (jVarLocalInKey) {
         case "Branch":
             localStorage.setItem("BranchName", LocalUserName)
-            window.location.href = ConfigJson.RedirectToUrl;
+            window.location.href = `/${jVarLocalCommonConfigJson}/${ConfigJson.RedirectToUrl}`;
 
             break;
         case "Factory":
