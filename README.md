@@ -28,3 +28,7 @@ login redirect branch perfect
 0.1.9
 
 LoginUsers command changed
+
+0.1.10
+
+deleted html files
