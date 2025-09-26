@@ -17,8 +17,8 @@ let StartFunc = async ({ inSettlementData }) => {
     };
 
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaderObject);
-    let jVarLocalResponse = await response.json();
-
+    
+    let jVarLocalResponse = await response;
     return jVarLocalResponse;
 };
 
