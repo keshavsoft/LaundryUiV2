@@ -32,3 +32,7 @@ LoginUsers command changed
 0.1.10
 
 deleted html files
+
+0.1.11
+
+Masters folder restored
