@@ -1,5 +1,5 @@
 {
     "routePath": "binV4",
     "tableName": "Openings",
-    "url":"/Custom/Cleaning/Branch/Today/V1/OnlyOrders/BillPrint"
+    "url":"/LaundryV1/Branch/Today/V1/OnlyOrders/BillPrint"
 }

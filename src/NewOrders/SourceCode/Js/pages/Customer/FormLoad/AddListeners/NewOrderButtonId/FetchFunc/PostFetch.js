@@ -8,7 +8,7 @@ let StartFunc = async () => {
 
     // let jVarLocalFetchUrl = `${ConfigJson.Urls.NewOrderButtonId.PostFetch}/${jVarLocalBranchName}`;
     // let jVarLocalFetchUrl = ConfigJson.Urls.NewOrderButtonId.PostFetch
-    let jVarLocalFetchUrl = `/${ConfigJson.routePath}/${jVarLocalBranchName}/AddWithDefault/InsertFromBody`
+    let jVarLocalFetchUrl = `/${ConfigJson.routePath}/${jVarLocalBranchName}/Insert/AsIsAndTS`
 
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
 
