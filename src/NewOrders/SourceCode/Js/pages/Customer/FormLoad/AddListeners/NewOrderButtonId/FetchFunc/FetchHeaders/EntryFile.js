@@ -2,23 +2,29 @@ import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
     let jVarLocalFromDom = jFLocalCustomerNameInputId();
-    console.log("aaaaaaaaa : ", jVarLocalFromDom);
+    let jVarLocalBranchName = localStorage.getItem("BranchName");
+    let LocalModifiedBranchName = jVarLocalBranchName.replace("BranOrders", "");
 
     let jVarLocalMobileNumber = jVarLocalFromDom.split(":")[1];
     let jVarLocalUserName = localStorage.getItem("UserName");
 
-    KeysJson.body.Key = "CustomerData";
+    KeysJson.body.ItemsInOrder = {};
+    KeysJson.body.CustomerData = {};
+    KeysJson.body.OrderData = {};
+    KeysJson.body.AddOnData = {};
+    KeysJson.body.CheckOutData = {};
 
-    KeysJson.body.Value = {};
+    KeysJson.body.OrderData.BranchName = LocalModifiedBranchName;
+    KeysJson.body.OrderData.Mobile = jVarLocalMobileNumber;
 
-    KeysJson.body.Value.Mobile = jVarLocalMobileNumber;
-    KeysJson.body.Value.UserName = jVarLocalUserName;
+    KeysJson.body.CustomerData.Mobile = jVarLocalMobileNumber;
+    KeysJson.body.CustomerData.UserName = jVarLocalUserName;
 
-    KeysJson.body.Value.CustomerName = jVarLocalFromDom.split(":")[0];
-    KeysJson.body.Value.DOB = "";
-    KeysJson.body.Value.GSTNumber = "";
-    KeysJson.body.Value.City = "";
-    KeysJson.body.Value.Occupation = "";
+    KeysJson.body.CustomerData.CustomerName = jVarLocalFromDom.split(":")[0];
+    KeysJson.body.CustomerData.DOB = "";
+    KeysJson.body.CustomerData.GSTNumber = "";
+    KeysJson.body.CustomerData.City = "";
+    KeysJson.body.CustomerData.Occupation = "";
 
     KeysJson.body = JSON.stringify(KeysJson.body);
 
