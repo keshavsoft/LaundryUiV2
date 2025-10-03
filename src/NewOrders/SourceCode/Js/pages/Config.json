@@ -4,7 +4,7 @@
             "redirectToUrl": "../../../Branch/BranchToday/HtmlFiles/QrRaiseAll.html"
         }
     },
-    "routePath": "V4",
+    "routePath": "V6",
     "folderName": "Masters",
     "tableName": "CustomerNames",
     "localStorageKeys": {
