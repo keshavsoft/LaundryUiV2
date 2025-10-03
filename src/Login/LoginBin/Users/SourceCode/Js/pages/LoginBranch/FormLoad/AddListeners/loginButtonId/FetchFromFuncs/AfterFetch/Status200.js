@@ -1,12 +1,13 @@
 import ConfigJson from '../../../../../Config.json' with { type: 'json' };
 const CommonKeyName = "BranchName";
 
-const StartFunc = () => {
-    debugger
+const StartFunc = async (inRes) => {
+    // debugger
+    let LocalRes = await inRes.json();
     const token = getCookie('KSToken');
 
     if (token) {
-        // localStorage.setItem(CommonKeyName, `BranOrders${payload.Branch}`);
+        localStorage.setItem(CommonKeyName, `${LocalRes.BranchName}`);
         // localStorage.setItem("UserName", payload.UserName);
         // localStorage.setItem("UserUuId", payload.UserUuId);
         window.location.href = ConfigJson.RedirectToUrl;
