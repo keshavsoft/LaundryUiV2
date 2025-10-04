@@ -1,5 +1,5 @@
 {
     "StartRoute": "binV3",
     "tableName": "",
-    "Url": "Custom/Cleaning/Branch/Today/Orders/OrdersWithQrs/Today"
+    "Url": "Custom/Cleaning/Branch/Today/V1/OrdersWithQrs"
 }
