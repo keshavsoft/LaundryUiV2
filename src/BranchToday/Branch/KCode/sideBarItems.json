@@ -47,8 +47,13 @@
         "icon": "bi bi-printer",
         "children": [
             {
-                "name": "QR And Bill",
+                "name": "SimpleQR",
                 "url": "PrintQr.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "ComplexQR",
+                "url": "PrintQrComplex.html",
                 "icon": "bi bi-plus-square-fill"
             }
         ]
