@@ -8,7 +8,7 @@ let StartFunc = () => {
 
     switch (jVarLocalInKey) {
         case "Branch":
-            localStorage.setItem("BranchName", LocalUserName)
+            localStorage.setItem("BranchName", `BranOrders${LocalUserName}`)
             window.location.href = `/${jVarLocalCommonConfigJson}/${ConfigJson.RedirectToUrl}`;
 
             break;
