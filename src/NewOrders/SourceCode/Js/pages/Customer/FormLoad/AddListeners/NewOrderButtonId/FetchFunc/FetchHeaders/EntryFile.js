@@ -16,6 +16,7 @@ let StartFunc = () => {
 
     KeysJson.body.OrderData.BranchName = LocalModifiedBranchName;
     KeysJson.body.OrderData.Mobile = jVarLocalMobileNumber;
+    KeysJson.body.OrderData.Currentdateandtime = new Date();
 
     KeysJson.body.CustomerData.Mobile = jVarLocalMobileNumber;
     KeysJson.body.CustomerData.UserName = jVarLocalUserName;
