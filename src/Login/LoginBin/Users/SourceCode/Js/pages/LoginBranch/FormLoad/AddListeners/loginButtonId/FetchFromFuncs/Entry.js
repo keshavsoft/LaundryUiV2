@@ -10,7 +10,7 @@ let StartFunc = async (event) => {
     if (jVarLocalFromCheck) {
         let jVarLocalRes = await StartFuncFetchFuncs();
 
-        StartFuncAfterFetch(jVarLocalRes);
+        StartFuncAfterFetch({ inResponse: jVarLocalRes });
     };
 };
 
