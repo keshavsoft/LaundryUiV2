@@ -2,7 +2,7 @@ import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
     KeysJson.body.UserName = jFLocalyourUsername();
-    KeysJson.body.Password = parseInt(jFLocalyourPassword());
+    KeysJson.body.Password = jFLocalyourPassword();
     KeysJson.body = JSON.stringify(KeysJson.body);
 
     return KeysJson;

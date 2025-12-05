@@ -1,9 +1,10 @@
-const StartFunc = (inRes) => {
-    if (inRes.KReason.includes("Wrong Password")) {
-        jFLocalyourPassword(inRes.KReason);
+const StartFunc = ({inResponse}) => {
+    
+    if (inResponse.includes("Wrong Password")) {
+        jFLocalyourPassword(inResponse);
     }
-    if (inRes.KReason.includes("Wrong Username")) {
-        jFLocalyourUsername(inRes.KReason);
+    if (inResponse.includes("Wrong Username")) {
+        jFLocalyourUsername(inResponse);
     }
 };
 
