@@ -21,7 +21,7 @@ let StartFunc = ({ inColumns }) => {
     let LocalColumnopts = LocalColumns.find(element => element.field === "Opts");
     let LocalColumnAmount = LocalColumns.find(element => element.field === "KS-Amount");
 
-    let LocalColumnDateTime = LocalColumns.find(element => element.field === "DateTime");
+    let LocalColumnDateTime = LocalColumns.find(element => element.field === "ServerInsertedTimeStamp");
 
     let LocalColumnItemName = LocalColumns.find(element => element.field === "ItemName");
     let LocalColumnPcs = LocalColumns.find(element => element.field === "Pcs");

@@ -3,7 +3,7 @@ import { StartFunc as StartFuncFromLocalStorage } from "./FromLocalStorage.js";
 const StartFunc = () => {
     let jVarLocalFromLocalStorage = StartFuncFromLocalStorage();
 
-    jFLocalToInputCustomerMobileId(jVarLocalFromLocalStorage.CustomerData.CustomerMobile);
+    jFLocalToInputCustomerMobileId(jVarLocalFromLocalStorage.CustomerData.Mobile);
     jFLocalToInputCustomerNameId(jVarLocalFromLocalStorage.CustomerData.CustomerName);
     jFLocalToInputOrderNumberId(jVarLocalFromLocalStorage.pk);
     jFLocalToInputBranchNameAnchorId(localStorage.getItem("BranchName"));

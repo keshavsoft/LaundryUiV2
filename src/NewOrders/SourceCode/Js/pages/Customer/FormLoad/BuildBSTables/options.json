@@ -14,13 +14,7 @@
             
         },
         {
-            "field": "OrderData.Currentdateandtime",
-            "title": "Date",
-            "formatter": "LocalDate",
-            "visible": false
-        },
-        {
-            "field": "DateTime",
+            "field": "ServerInsertedTimeStamp",
             "title": "Time Span",
             "formatter": "TimeDiff",
             "class": "d-none d-sm-table-cell"
