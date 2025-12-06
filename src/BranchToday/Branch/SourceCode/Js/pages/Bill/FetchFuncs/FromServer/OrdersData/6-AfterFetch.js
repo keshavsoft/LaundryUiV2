@@ -10,7 +10,7 @@ let StartFunc = ({ inFromFetch }) => {
     let BillNumber = data.pk;
     let StoreContact = data.BranchMobile;
     let CustomerName = data.CustomerData.CustomerName;
-    let CustomerMobile = data.CustomerData.CustomerMobile;
+    let CustomerMobile = data.CustomerData.Mobile;
     let BookingDate = data.OrderData.Currentdateandtime;
     let GSTNumber = data.CustomerData.GSTNumber;
     let ItemData = data.ItemsInOrder;
