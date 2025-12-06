@@ -22,7 +22,7 @@
             "title": "Customer Name"
         },
         {
-            "field": "CustomerData.inMobileNumber",
+            "field": "CustomerData.Mobile",
             "title": "Mobile"
         },
         {
