@@ -1,10 +1,10 @@
 import { StartFunc as ShowOnDom } from "../../../../ShowOnDom/EntryFile.js";
 
 let StartFunc = async ({ Status, inSuccessFunc }) => {
-  let LocalStatus = Status;
+  let LocalStatus = await Status.text();
   const CommonKeyName = "BranchName";
   let LocalUser = localStorage.getItem("UserUuId");
-  if (LocalStatus.status === 200) {
+  if (Status.status === 200) {
     jFLocalModalClose();
     ShowOnDom();
     const token = getCookie("KSToken");
@@ -13,7 +13,7 @@ let StartFunc = async ({ Status, inSuccessFunc }) => {
       if (payload) {
         console.log(payload);
         if (payload.UserUuId != LocalUser) {
-          localStorage.setItem(CommonKeyName, `BranOrders${payload.Branch}`);
+          localStorage.setItem(CommonKeyName, `${LocalStatus.BranchName}`);
           localStorage.setItem("UserName", payload.UserName);
           localStorage.setItem("UserUuId", payload.UserUuId);
           window.location.href = "";

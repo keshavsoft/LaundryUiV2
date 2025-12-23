@@ -6,7 +6,7 @@ let StartFunc = async () => {
     let jVarLocalFetchHeaders = StartFuncFetchHeaders();
     
     // let jVarLocalFetchUrl = `/Login/bin/Branch/UsingJwt/CreateToken`;
-    let jVarLocalFetchUrl = `/Users/Generate`;
+    let jVarLocalFetchUrl = `/Users/GenForBranch`;
 
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
     
