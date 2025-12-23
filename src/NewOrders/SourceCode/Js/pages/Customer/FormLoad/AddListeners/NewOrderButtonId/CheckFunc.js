@@ -1,4 +1,4 @@
-import JsonConfig from "../../../Config.json" with{type: "json"};
+import JsonConfig from "../../../../Config.json" with{type: "json"};
 
 let StartFunc = async () => {
     let jvarLocalCustomerNameInputId = document.getElementById("CustomerNameInputId");
@@ -9,7 +9,6 @@ let StartFunc = async () => {
     };
 
     let LocalFech = await LocalFetchFunc();
-    console.log('LocalFech:', LocalFech);
 
     if (LocalFech === false) {
         jvarLocalCustomerNameInputId.classList.add("is-invalid");
@@ -24,10 +23,10 @@ const LocalFetchFunc = async () => {
     let jvarLocalCustomerNameInputId = document.getElementById("CustomerNameInputId").value;
     let jVarLocalMobileValue = jvarLocalCustomerNameInputId.split(":")[1]
 
-    let jVarLocalfetchUrl = `/${JsonConfig.routePath}/MastersCustomers/Show/Filter/Mobile/${jVarLocalMobileValue}`
+    let jVarLocalfetchUrl = `/${JsonConfig.routePath}/MastersCustomers/Filter/ByKeyAndValue/Mobile/${jVarLocalMobileValue}`
     let response = await fetch(jVarLocalfetchUrl);
 
-    if (response.status === 500) {
+    if (response.status === 404) {
         return false;
     };
 
